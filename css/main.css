@@ -1,0 +1,347 @@
+:root {
+  --NeutralSilver: #f5f7fa;
+  --BrandPrimary: #4caf4f;
+  --HoverButton: #66bb69;
+  --NeutralGrey: #717171;
+  --NeutralBlack: #263238;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-cta-sign {
+  background-color: var(--BrandPrimary);
+  color: white;
+}
+
+.btn-cta-sign:hover {
+  background-color: var(--HoverButton);
+}
+
+.btn-cta {
+  background-color: var(--BrandPrimary);
+  color: white;
+  width: 182px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cta:hover {
+  background-color: var(--HoverButton);
+}
+
+.navbar .login {
+  color: var(--BrandPrimary);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+p {
+  color: var(--NeutralGrey);
+  font-size: 1.1rem;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--NeutralSilver);
+  min-height: 80vh;
+}
+
+.hero-content {
+  padding-top: 10rem;
+}
+
+.hero span {
+  color: var(--BrandPrimary);
+}
+
+.hero img {
+  padding-top: 5rem;
+  padding-left: 7rem;
+}
+
+/* Brand Section */
+.brand {
+  min-height: 40vh;
+  padding-top: 5rem;
+}
+
+.brand .content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Community */
+.community {
+  min-height: 80vh;
+}
+
+.community .icon-card {
+  width: 4rem;
+}
+
+.community .card h5 {
+  font-size: 1.8rem;
+}
+
+.community .card:hover {
+  background-color: #bcecbe;
+}
+
+/* Unlock */
+.unlock {
+  min-height: 50h;
+  padding-top: 1rem;
+}
+
+.unlock img {
+  padding-top: 0;
+}
+
+/* Achievements */
+.achievements {
+  min-height: 70vh;
+  background-color: var(--NeutralSilver);
+  padding-top: 7rem;
+}
+
+.achievements span {
+  color: var(--BrandPrimary);
+}
+
+.achievements .counts .counts-content {
+  align-items: center;
+}
+
+/* Calender */
+.calender {
+  min-height: 80vh;
+  padding-top: 5rem;
+}
+
+/* Customer */
+.customer {
+  min-height: 80vh;
+  padding-top: 5rem;
+  background-color: var(--NeutralSilver);
+}
+
+.customer h5 {
+  color: var(--BrandPrimary);
+}
+
+/* Community */
+.community2 {
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+/* .community2 .card-text-community {
+  text-align: center;
+  background-color: var(--NeutralSilver);
+  width: 21.5rem;
+  padding: 0.4rem;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 13rem;
+} */
+
+.community2 .card {
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community2 .card-body {
+  background-color: var(--NeutralSilver);
+  margin-top: -3rem;
+  width: 21rem;
+  border-radius: 10px;
+}
+
+.community2 p {
+  font-size: 0.9rem;
+}
+
+.community2 a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--BrandPrimary);
+}
+
+/* Demo */
+.demo {
+  min-height: 50vh;
+  background-color: var(--NeutralSilver);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--NeutralBlack);
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer p {
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+
+.footer-col {
+  width: 25%;
+  padding: 20px;
+}
+
+.footer .footer-icon a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footer-col h3 {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.footer-col ul li a:hover {
+  padding-left: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col h4 {
+  margin-left: 27px;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .hero {
+    min-height: 100vh;
+    padding-bottom: 2rem;
+  }
+
+  .community2 .card-body {
+    background-color: var(--NeutralSilver);
+    margin-top: -3rem;
+    width: 17.7rem;
+    border-radius: 10px;
+  }
+
+  .hero img {
+    padding-left: 4rem;
+    width: 391px;
+  }
+
+  .demo {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .btn-cta {
+    width: 100%;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .brand .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .community2 .card-body {
+    background-color: var(--NeutralSilver);
+    margin-top: -3rem;
+    width: 90%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .calender img,
+  .unlock img,
+  .hero img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero img,
+  .unlock img,
+  .calender img {
+    width: 100%;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .customer .logo-2 {
+    width: 100%;
+  }
+}
